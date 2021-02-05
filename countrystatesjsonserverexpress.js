@@ -4,7 +4,7 @@ const cors = require('cors')
 const fs = require('fs')
 const app = express();
 app.use(cors())
-
+//adding instructions
 app.get('/countrystates',(req,res)=>{
    
            
