@@ -2,7 +2,7 @@ const http = require('http').createServer()
 
 
 const fs = require('fs')
-
+console.log("edited")
 http.on('request',(req,res)=>{
     switch(req.url){
         case '/countrystates.json':
